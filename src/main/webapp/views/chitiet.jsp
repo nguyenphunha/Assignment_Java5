@@ -9,8 +9,14 @@
 <title>Chi tiết sản phẩm</title>
 </head>
 <body>
+
     <div class="container" style="margin-top: 15px; font-size: small;">
-        <div class="row">
+    	
+    	<jsp:include page="menu.jsp"></jsp:include>
+        
+        <jsp:include page="header.jsp"></jsp:include>
+    	
+        <div class="row" style="margin-top: 25px">
             <div class="col-sm-5">
                 <div id="carouselExampleIndicators" class="carousel slide">
                     <div class="carousel-indicators">
@@ -55,14 +61,13 @@
                 <h5 style="color: orange;">Chi tiết sản phẩm</h5>
                 <p>
 				    Tên: ${product.name} <br>
-				    Thương hiệu: ${brands.name} <br>
 				    Xuất xứ: ${product.origin} <br>
 				</p>
 
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header" style="background-color: orange;">
                         Khuyến mãi
                         <br>
                         Giá khuyến mãi áp dụng từ ngày 25/5/2024
@@ -76,14 +81,13 @@
             <div class="row">
                 <h5 style="color: orange;">Thông tin sản phẩm</h5>
                 <p>
-                    Tai nghe Bluetooth chụp tai Marshall Major IV là sự kết hợp hoàn hảo giữa thiết kế và công
-                    nghệ,
-                    mang đến trải nghiệm âm nhạc đỉnh cao. Với phong cách cổ điển, chất lượng âm thanh tuyệt hảo
-                    tai
-                    nghe này hứa hẹn đem lại trải nghiệm âm nhạc hay nhất.
+                    ${ product.description }
                 </p>
             </div>
         </div>
+        
+        <jsp:include page="footer.jsp"></jsp:include>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

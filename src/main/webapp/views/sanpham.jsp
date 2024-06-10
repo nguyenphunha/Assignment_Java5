@@ -23,7 +23,7 @@
 
     <div class="row col-12">
         <c:forEach items="${dsSP.getContent()}" var="sp">
-            <div class="card m-2" style="width: 18rem; height: 22rem;">
+            <div class="card m-2" style="width: 18rem; height: 24rem;">
                 <img src="../${sp.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title" style="color: red">${sp.name}</h5>
