@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/sanpham">Quản lý sản phẩm</a>
+                        <a class="nav-link" href="/quanlysanpham">Quản lý sản phẩm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quản lý loại</a>
+                        <a class="nav-link" href="/categories/category">Quản lý loại</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quản lý hãng</a>
+                        <a class="nav-link" href="/brands/brand">Quản lý hãng</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/users">Quản lý khách hàng</a>
