@@ -65,7 +65,7 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
                 </ul>
                 <form class="d-flex" role="search">
                     <span class="navbar-text p-3" id="usernameText">Hello, ${tendangnhap }</span>
-                    <a class="nav-link p-3" href="#" id="registerLink">Đăng ký</a>
+                    <a class="nav-link p-3" href="/dangky" id="registerLink">Đăng ký</a>
                     <a class="nav-link p-3" href="/dangnhap" id="loginLink">Đăng nhập</a>
                     <a class="nav-link p-3" href="/dangnhap/dangxuat" id="logoutLink">Đăng xuất</a>
                     <button class="btn btn-outline-success" type="submit">
