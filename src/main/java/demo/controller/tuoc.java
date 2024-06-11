@@ -1,5 +1,10 @@
 package demo.controller;
 
-public class tuoc {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class tuoc {
+	public String tuoc() {
+		return "";
+	}
 }
