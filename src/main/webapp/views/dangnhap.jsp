@@ -30,6 +30,7 @@
                         <label for="matkhau">Mật khẩu</label>
                         <input class="form-control" type="password" name="matkhau" required>
                         <br>
+                        <span>Bạn chưa có tài khoản?</span> <a class="" href="/dangky">Đăng ký</a> <br>
                         <button class="btn btn-primary" style="margin-left: 80%;">Đăng nhập</button>
                     </div>
                 </form>

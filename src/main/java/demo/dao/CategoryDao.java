@@ -7,5 +7,5 @@ import demo.entities.Categories;
 
 @Repository
 public interface CategoryDao extends JpaRepository<Categories, Integer> {
-
+	
 }

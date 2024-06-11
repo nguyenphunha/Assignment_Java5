@@ -24,13 +24,14 @@ public class Products implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    Integer id;
     String name;
     String image;
     Double price;
     String description;
     Integer quantity;
     String origin;
+    Boolean available;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "Createddate")

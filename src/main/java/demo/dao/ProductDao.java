@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 import demo.entities.Products;
 
-public interface ProductDao extends JpaRepository<Products, Long> {
+public interface ProductDao extends JpaRepository<Products, Integer> {
     @Query("SELECT p FROM Products p "
     		+ "WHERE p.price > :min AND p.price < :max")
     Page<Products> findByPrice(

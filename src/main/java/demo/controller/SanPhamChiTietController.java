@@ -16,7 +16,7 @@ public class SanPhamChiTietController {
     private ProductDao productDao;
 
     @RequestMapping("chitiet")
-    public String chitiet(@RequestParam("productId") Long productId, Model model) {
+    public String chitiet(@RequestParam("productId") Integer productId, Model model) {
         Products product = productDao.findById(productId).orElse(null);
         model.addAttribute("product", product);
         return "chitiet";

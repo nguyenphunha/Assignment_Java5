@@ -27,23 +27,7 @@
         
         <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
             <article class="col-sm-6">
-                <div>
-                    <div class="card">
-                        <div class="card-header text-center" >
-                            Đăng nhập
-                        </div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <label for="">Tên đăng nhập</label>
-                                <input class="form-control" type="text" >
-                                <label for="">Mật khẩu</label>
-                                <input class="form-control" type="password" >
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-primary" style="margin-left: 75%;">Đăng nhập</button>
-                        </div>
-                    </div>
+                
                 </div>
             </article>
             <aside class="col-sm-6">
